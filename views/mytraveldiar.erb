@@ -1,0 +1,21 @@
+<!doctype html>
+<title>Hello from Sinatra</title>
+	<h1>My Holiday Diary</h1>
+
+<div id="holiday-form">
+	<h1>Enter you holiday!</h1>
+	<form method="post" action="/signup">
+		<label for="destination">Where did you go?: </label>
+		<input type="text" id="destination" name="destination" value="" placeholder="Paris" required="required" autofocus="autofocus"/> 
+		<br>
+		<label for="companions">Who did you do with?: </label>
+		<input type="text" id="companions" name="companions" value="" placeholder="My family" required="required"/>
+		<br>
+		<label for="memory">What was your favourite memory?: </label>
+		<input type="text" id="memory" name="memory" value="" placeholder="Swimming in the ocean" required="required"/>
+		<br>
+		<input type="submit" value="submit" id="submit-button">
+	</form>
+</div>
+
+<end>
